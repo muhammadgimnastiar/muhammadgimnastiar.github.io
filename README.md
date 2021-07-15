@@ -5,10 +5,11 @@
 - Portofolio
 - Skill
 - Interest
-- and other
-### You can reach this page at [Github page][github] 
+- and other 
+### You can reach this page at &LongRightArrow; [Github page][github] 
 ---
 Made by muhammadgimnastiar&copy;
 
+<img src="https://www.bit.ly/fcc-relaxing-cat" width="300">
 
 [github]:https://muhammadgimnastiar.github.io/ "Klik to open >" 

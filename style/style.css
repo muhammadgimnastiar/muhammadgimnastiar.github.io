@@ -45,7 +45,7 @@ body {
   color: inherit;
   font-size: 18px;
 }
-.header-tag ul:hover {
+.header-tag ul a:hover {
   color: #9aa0a6;
 }
 
@@ -61,20 +61,12 @@ body {
   margin: 0 auto;
 }
 
-footer {
-  position: sticky;
-  left: 0;
-  bottom: 0;
-  right: 0;
-}
-
 #anim-text {
   position: absolute;
   top: 40%;
   left: 30%;
   transform: translate(-50%, -50%);
   fill: transparent;
-  background-color: red;
 }
 
 .square-shape, .square-shape-right-bot, .square-shape-left-bot, .square-shape-left {
@@ -87,6 +79,17 @@ footer {
   border: 2px solid #202122;
   box-sizing: border-box;
   border-radius: 21px;
+  transform: rotate(-30deg);
+}
+
+.pic-shape {
+  position: fixed;
+  left: 75%;
+  top: 150px;
+  width: 302px;
+  height: 302px;
+  background: url("/src/gimnas-shape-.png");
+  box-sizing: border-box;
   transform: rotate(-30deg);
 }
 

@@ -19,7 +19,6 @@ body {
 }
 
 .icon {
-  padding-left: 2rem;
   color: inherit;
   -webkit-text-stroke: 2px #fabb2e;
   color: transparent;
@@ -53,7 +52,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120;
+  height: 100;
 }
 
 .homepage {
@@ -61,12 +60,47 @@ body {
   margin: 0 auto;
 }
 
-#anim-text {
+.container {
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+  padding: 2em;
+}
+
+.main-right- {
+  display: flex;
+  flex-direction: column;
   position: absolute;
-  top: 40%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  fill: transparent;
+  top: 30%;
+  left: inherit;
+  max-width: 600px;
+  max-height: 75vh;
+}
+.main-right- > .main-gimnas {
+  left: -50px;
+  position: relative;
+  padding-left: 0;
+  padding: 3rem;
+  transform: translate(-50% -50%);
+}
+.main-right- > .main-description {
+  padding: 1.2rem;
+  padding-left: 0;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+.main-right- > .see-button {
+  margin: 0;
+  padding: 0.8rem;
+  padding-left: 0;
+  border-bottom: solid 1px #202122;
+}
+.main-right- > .see-button > a {
+  text-decoration: none;
+  font: normal normal 0.8rem/1.2 Podkova;
+  color: #e8eaed;
+  justify-content: flex-start;
+  border-bottom: solid 2px #e8eaed;
 }
 
 .square-shape, .square-shape-right-bot, .square-shape-left-bot, .square-shape-left {
@@ -161,7 +195,6 @@ body {
   }
   to {
     stroke-dashoffset: 0;
-    fill: #212121;
   }
 }
 
@@ -171,7 +204,6 @@ body {
   }
   to {
     stroke-dashoffset: 0;
-    fill: #212121;
   }
 }
 @-webkit-keyframes img-anim {

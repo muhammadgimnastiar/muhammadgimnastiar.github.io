@@ -37,7 +37,7 @@ body {
 }
 
 .icon {
-  padding-left: 2rem;
+  
   color: inherit;
   -webkit-text-stroke: 2px $accent-orange-color;
   color: transparent;
@@ -72,7 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 120;
+  height: 100;
 }
 
 .homepage {
@@ -80,13 +80,61 @@ body {
   margin: 0 auto;
 }
 
-#anim-text {
-  position: absolute;
-  top: 40%;
-  left: 30%;
-  transform: translate(-50%, -50%);
-  fill: transparent;
+.container{
+  position: relative;
+  max-width: 1440px;
+  margin: auto;
+  padding: 2em;
+  
 }
+
+.main-right-{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30%;
+  left: inherit;
+  max-width: 600px;
+  max-height: 75vh;
+  
+>.main-gimnas{
+  // border: solid 2px $accent-blue-color;
+  // border-radius: 25px;
+  // background-color: $accent-blue-color;
+  left: -50px;
+  position: relative;
+  padding-left: 0;
+  padding: 3rem;
+  transform: translate(-50% -50%);
+}
+>.main-description{
+  padding: 1.2rem;
+  padding-left: 0;
+  flex-direction: column;
+  font-size: 1.2rem;
+}
+>.see-button{
+  margin: 0;
+  padding: .8rem;
+  padding-left: 0;
+  border-bottom: solid 1px $premier-color;
+>a{
+  text-decoration: none;
+  font: normal normal 0.8rem/1.2 Podkova;
+  color: $secondary-color;
+  justify-content: flex-start;
+  border-bottom: solid 2px $secondary-color;
+}
+}
+}
+
+// #anim-text {
+//   position: absolute;
+//   top: 40%;
+//   left: 30%;
+//   transform: translate(-50%, -50%);
+//   fill: transparent;
+// }
 
 .square-shape {
   position: fixed;
@@ -222,7 +270,7 @@ body {
   }
   to {
     stroke-dashoffset: 0;
-    fill: #212121;
+    
   }
 }
 

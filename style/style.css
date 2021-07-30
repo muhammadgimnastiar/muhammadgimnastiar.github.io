@@ -52,19 +52,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100;
-}
-
-.homepage {
-  max-width: 1200px;
-  margin: 0 auto;
+  height: 100px;
 }
 
 .container {
   position: relative;
   max-width: 1440px;
   margin: auto;
-  padding: 2em;
+  padding: 0 2em;
 }
 
 .main-right- {
